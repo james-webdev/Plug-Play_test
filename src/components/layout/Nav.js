@@ -7,7 +7,7 @@ const NavWrapper = styled.div`
   grid-template-columns: 1fr;
   display: grid;
   grid-auto-flow: column;
-  gap: 5px;
+  gap: 10px;
   align-items: center;
   position: fixed;
   left: 0px;
