@@ -5,21 +5,19 @@ export default (props) => {
   return (
     // Pass on our props
     <Menu right {...props}>
-      <a className="menu-item" href="/">
-        Home
+      <a className="menu-item p-3" href="/">
+        Specialist or Practice
       </a>
 
-      <a className="menu-item" href="/about">
-        About
+      <a className="menu-item p-3" href="/about">
+        in Location
       </a>
 
-      <a className="menu-item" href="/services">
-        Services
+      <a className="menu-item p-3" href="/services">
+        Via any insurer
       </a>
 
-      <a className="menu-item" href="/contact">
-        Contact us
-      </a>
+     
     </Menu>
   );
 };
