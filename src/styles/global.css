@@ -16,7 +16,7 @@ body {
   background-image: url(../../src/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 60vh;
   margin-left: 50px;
   margin-right: 50px;
   /* border-bottom: 3px solid #5ead8d; */
@@ -27,7 +27,7 @@ body {
     background-image: url(../../src/images/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 80vh;
     margin-left: 50px;
     margin-right: 50px;
     border-bottom: none;
