@@ -26,11 +26,11 @@
     background-image: url(../../src/images/smallbg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
     border-bottom: none;
     margin-left: 0px;
     margin-right: 0px;
-    width: 150%;
   }
 }
 
