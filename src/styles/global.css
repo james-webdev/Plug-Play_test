@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+
+.marginTop {
+  margin-top: 500px;
+}
+
 /* .bgimage {
   background-image: url(../../src/images/background.png);
   background-position: center;
@@ -58,9 +63,7 @@ body {
 @media only screen and (max-width: 640px) {
   .smallScreens {
     /* background-color: greenyellow !important; */
-    width: 491px !important;
     height: 0px !important;
-    margin-left: 45px !important;
   }
 }
 

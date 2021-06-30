@@ -8,9 +8,9 @@ const IndexPage = () => {
     <>
       <div className="">
         <Layout>
-          <div className="border border-black ml-10 mainHeight mr-10">
+          {/* <div className="border border-black ml-10 mainHeight mr-10">
             <Main />
-          </div>
+          </div> */}
         </Layout>
         {/* <div className="mt-40 flex justify-center items-center bg-white w-full h-40 smallScreens">
         <button className="w-2/3">
@@ -29,9 +29,9 @@ const IndexPage = () => {
           </Layout>
         </div>
       </div> */}
-      {/* <div>
+       <div>
         <BottomButton />
-      </div> */}
+      </div> 
     </>
   );
 };

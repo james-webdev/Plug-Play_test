@@ -18,7 +18,7 @@ const NavWrapper = styled.div`
 
 const Nav = () => {
   return (
-    <NavWrapper className="flex justify-center h-20 sm:h-1 items-center bg-white w-full z-10 sm:bg-opacity-0">
+    <NavWrapper className="border border-black flex justify-center h-20 sm:h-1 items-center bg-white w-screen z-10 sm:bg-opacity-0">
       <div>
         <div className="h-14 flex" id="App">
           <div className="mt-8 pl-20 hidden sm:block">
@@ -31,13 +31,13 @@ const Nav = () => {
               <Logo />
             </Link>
           </div>
-           <div className="sm:hidden">
+            <div className="sm:hidden">
             <SideBar
               className=""
               pageWrapId={"page-wrap"}
               outerContainerId={"App"}
             />
-          </div> 
+          </div>  
         </div>
       </div>
 
