@@ -1,25 +1,25 @@
 body {
-  background-image: url(../../src/images/background.png);
+  /* background-image: url(../../src/images/background.png);
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 80vh;
   max-width: 100%;
   overflow-x: hidden;
 }
 
-
+/* 
 .marginTop {
-  margin-top: 500px;
-}
+  margin-top: 1500px;
+} */
 
-/* .bgimage {
+ .bgimage {
   background-image: url(../../src/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
   margin-left: 50px;
   margin-right: 50px;
-  border-bottom: 3px solid #5ead8d;
+  /* border-bottom: 3px solid #5ead8d; */
 }
 
 @media only screen and (min-width: 1920px) {
@@ -33,7 +33,7 @@ body {
     border-bottom: none;
     background-size: cover;
   }
-}
+} 
 
 @media only screen and (max-width: 640px) {
   .bgimage {
@@ -44,9 +44,9 @@ body {
     border-bottom: none;
     margin-left: 0px;
     margin-right: 0px;
-    width: 180%;
+    
   }
-} */
+} 
 
 .mainHeight {
   height: 800px;
