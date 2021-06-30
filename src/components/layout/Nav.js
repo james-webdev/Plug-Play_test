@@ -27,17 +27,17 @@ const Nav = () => {
             </Link>
           </div>
           <div className="pt-4 w-40 pl-5 sm:hidden">
-          <Link to="/">
-            <Logo />
-          </Link>
+            <Link to="/">
+              <Logo />
+            </Link>
           </div>
-          <div className="sm:hidden">
+           <div className="sm:hidden">
             <SideBar
               className=""
               pageWrapId={"page-wrap"}
               outerContainerId={"App"}
             />
-          </div>
+          </div> 
         </div>
       </div>
 

@@ -1,8 +1,13 @@
 body {
-  overflow-x: hidden !important;
+  background-image: url(../../src/images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.bgimage {
+/* .bgimage {
   background-image: url(../../src/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +41,7 @@ body {
     margin-right: 0px;
     width: 180%;
   }
-}
+} */
 
 .mainHeight {
   height: 800px;
