@@ -2,7 +2,7 @@ import React from "react";
 
 const Main = () => {
   return (
-    <div className="ml-5 mt-72 sm:ml-20">
+    <div className="ml-5 sm:ml-20">
       <div className="text-white text-4xl md:text-5xl xl:text-7xl mt-40 extralight minWidth max-w-3xl">
         <p>Managing your health has never been easier.</p>
       </div>

@@ -20,7 +20,7 @@ const IndexPage = () => {
         </button>
       </div> 
       </div> */}
-       <div className="bgimage -mb-24 sm:-mb-5 z-0 relative">
+       <div className="bgimage relative">
         <div className="absolute">
           <Layout>
             <div className="">
@@ -29,7 +29,7 @@ const IndexPage = () => {
           </Layout>
         </div>
       </div> 
-       <div className="z-50">
+       <div className="">
         <BottomButton />
       </div>   
     </>
