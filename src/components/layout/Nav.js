@@ -26,7 +26,7 @@ const Nav = () => {
               <LogoLight />
             </Link>
           </div>
-          <div className="pt-4 pl-5 sm:hidden">
+          <div className="pt-4 w-40 pl-5 sm:hidden">
           <Link to="/">
             <Logo />
           </Link>
