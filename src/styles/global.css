@@ -30,11 +30,11 @@ body {
     background-image: url(../../src/images/smallbg.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 800px;
     border-bottom: none;
     margin-left: 0px;
     margin-right: 0px;
-    width: 150%;
+    width: 160%;
   }
 }
 
@@ -54,7 +54,8 @@ body {
   .smallScreens {
     /* background-color: greenyellow !important; */
     width: 491px !important;
-    
+    height: 0px !important;
+    margin-left: 45px !important;
   }
 }
 
