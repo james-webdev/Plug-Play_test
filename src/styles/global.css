@@ -1,3 +1,60 @@
+.bgimage {
+  background-image: url(../../src/images/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 3px solid #5ead8d;
+}
+
+@media only screen and (min-width: 1920px) {
+  .bgimage {
+    background-image: url(../../src/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: none;
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .bgimage {
+    background-image: url(../../src/images/smallbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-bottom: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 150%;
+  }
+}
+
+.mainHeight {
+  height: 800px;
+}
+
+.minWidth {
+  min-width: 390px;
+}
+
+.buttonColor {
+  background-color: #5ead8d;
+}
+
+@media only screen and (max-width: 430px) {
+  .smallScreens {
+    /* background-color: greenyellow !important; */
+    width: 431px !important;
+    height: 271px !important;
+    margin-top: 50px !important;
+  }
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   border-radius: 25px 25px 25px 25px;

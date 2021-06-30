@@ -1,5 +1,5 @@
 import React from "react";
-import { slide as Menu } from "react-burger-menu";
+import { stack as Menu } from "react-burger-menu";
 
 export default (props) => {
   return (
@@ -16,8 +16,6 @@ export default (props) => {
       <a className="menu-item p-3" href="/services">
         Via any insurer
       </a>
-
-     
     </Menu>
   );
 };
