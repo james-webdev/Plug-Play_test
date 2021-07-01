@@ -31,7 +31,7 @@ body {
     background-image: url(../../src/images/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 60vh;
     margin-left: 50px;
     margin-right: 50px;
     border-bottom: none;
@@ -48,6 +48,13 @@ body {
     border-bottom: none;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-device-width: 550px) and (max-device-width: 1000px) {
+  .landscapeMain {
+    font-size: 25px !important;
+    margin-top: -75px !important;
   }
 }
 
