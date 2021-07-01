@@ -1,7 +1,7 @@
+@import "../css/typography.css";
+
 body {
-  /* background-image: url(../../src/images/background.png);
-  background-position: center;
-  background-repeat: no-repeat; */
+  font-family: "Graphik" !important;
   height: 80vh;
   max-width: 100%;
   overflow-x: hidden;
@@ -12,6 +12,10 @@ body {
   margin-top: 1500px;
 } */
 
+.flexImp {
+  display: flex !important;
+}
+
 .bgimage {
   background-image: url(../../src/images/background.png);
   background-position: center;
@@ -19,7 +23,7 @@ body {
   height: 60vh;
   margin-left: 50px;
   margin-right: 50px;
-  /* border-bottom: 3px solid #5ead8d; */
+  border-bottom: 3px solid #5ead8d;
 }
 
 @media only screen and (min-width: 1920px) {
@@ -70,7 +74,14 @@ body {
   }
 }
 
-/* Position and sizing of burger button */
+@media only screen and (max-width: 340px) {
+  .extraSmall {
+    font-size: 10px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+}
+
 .bm-burger-button {
   border-radius: 25px 25px 25px 25px;
   position: fixed;
@@ -86,20 +97,21 @@ span {
   border-radius: 0.5rem;
 }
 
-/* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #1b1b1b;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 28px;
-  width: 28px;
+  height: 48px;
+  width: 48px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: black;
 }
 
 /*

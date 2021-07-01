@@ -23,7 +23,7 @@ const IndexPage = () => {
        <div className="bgimage -mb-24 sm:-mb-5 z-0 relative">
         <div className="absolute">
           <Layout>
-            <div className="">
+            <div className="mt-64 sm:mt-48">
               <Main />
             </div>
           </Layout>
