@@ -2,7 +2,7 @@
 
 body {
   font-family: "Graphik" !important;
-  height: 80vh;
+  height: 100vh;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -20,7 +20,7 @@ body {
   background-image: url(../../src/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 80vh;
   margin-left: 50px;
   margin-right: 50px;
   border-bottom: 3px solid #5ead8d;
