@@ -58,7 +58,7 @@ const Nav = () => {
           <Person />
           <p>Login</p>
         </div>
-        <div className="p-1 border border-white rounded-full text-white text-xs sm:p-2 m-1 sm:m-2">
+        <div className="p-1 border border-white rounded-full px-6 py-3 text-white text-xs m-1 sm:m-2">
           Sign Up
         </div>
       </div>
