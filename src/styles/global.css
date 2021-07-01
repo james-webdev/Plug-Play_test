@@ -20,7 +20,7 @@ body {
   background-image: url(../../src/images/background.png);
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 75vh;
   margin-left: 50px;
   margin-right: 50px;
   border-bottom: 3px solid #5ead8d;
@@ -31,7 +31,7 @@ body {
     background-image: url(../../src/images/background.png);
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 70vh;
     margin-left: 50px;
     margin-right: 50px;
     border-bottom: none;
@@ -51,7 +51,7 @@ body {
   }
 }
 
-@media screen and (orientation: landscape) and (min-device-width: 550px) and (max-device-width: 1000px) {
+@media screen and (orientation: landscape) and (min-device-width: 550px) and (max-device-width: 900px) {
   .landscapeMain {
     font-size: 25px !important;
     margin-top: -75px !important;
