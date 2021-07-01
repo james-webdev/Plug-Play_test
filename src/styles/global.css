@@ -7,14 +7,12 @@ body {
   overflow-x: hidden;
 }
 
-/* 
-.marginTop {
-  margin-top: 1500px;
-} */
 
 .flexImp {
   display: flex !important;
 }
+
+/* background image */
 
 .bgimage {
   background-image: url(../../src/images/background.png);
@@ -51,6 +49,19 @@ body {
   }
 }
 
+@media only screen and (min-height: 1000px) {
+  .bgimage {
+    background-image: url(../../src/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: none;
+    background-size: cover;
+  }
+}
+
 @media screen and (orientation: landscape) and (min-device-width: 550px) and (max-device-width: 900px) {
   .landscapeMain {
     font-size: 25px !important;
@@ -66,9 +77,6 @@ body {
   height: 800px;
 }
 
-/* .minWidth {
-  min-width: 390px;
-} */
 
 .buttonColor {
   background-color: #5ead8d;
@@ -89,6 +97,8 @@ body {
   }
 }
 
+
+/* buger menu */
 .bm-burger-button {
   border-radius: 25px 25px 25px 25px;
   position: fixed;
@@ -108,7 +118,7 @@ span {
   background: #1b1b1b;
 }
 
-/* Position and sizing of clickable cross button */
+
 .bm-cross-button {
   height: 48px;
   width: 48px;
@@ -116,28 +126,25 @@ span {
   margin-top: 5px;
 }
 
-/* Color/shape of close button cross */
+
 .bm-cross {
   background: black;
 }
 
-/*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
+
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
 }
 
-/* General sidebar styles */
+
 .bm-menu {
   background: white;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
-/* Wrapper for item list */
+
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
@@ -150,7 +157,7 @@ span {
   color: #57575a;
 }
 
-/* Styling of overlay */
+
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
